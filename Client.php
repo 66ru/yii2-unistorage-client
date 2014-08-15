@@ -7,6 +7,7 @@ use Unistorage\Models\Files\File;
 use Unistorage\Models\Files\RegularFile;
 use yii\base\Exception;
 use Unistorage\Unistorage;
+use yii\unistorage\Models\UnistorageCache;
 
 class Client extends Unistorage
 {
@@ -168,7 +169,7 @@ class Client extends Unistorage
      */
     protected function getFilesNamespace()
     {
-        return 'YiiUnistorage\\Models\\Files\\';
+        return 'yii\\unistorage\\Models\\Files\\';
     }
 
     /**
