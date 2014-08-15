@@ -1,0 +1,21 @@
+{
+    "name": "66ru/yii2-unistorage-client",
+    "description": "Unistorage client for Yii2",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "m8rge/curl-helper",
+                "version": "1.3.1",
+                "source": {
+                    "url": "https://github.com/66ru/CurlHelper",
+                    "type": "git",
+                    "reference": "05e6b0d1329be2b9c4d5c56a0c1e09a573aa353f"
+                }
+            }
+        }
+    ],
+    "require": {
+        "66ru/unistorage-php-client": "1.3.*"
+    }
+}
