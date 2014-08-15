@@ -1,6 +1,6 @@
 <?php
 
-namespace yii\unistorage\Files;
+namespace yii\unistorage\Models\Files;
 
 use Yii;
 use Unistorage\Models\Files\File;
